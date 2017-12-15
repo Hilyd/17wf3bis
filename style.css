@@ -9,6 +9,14 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+h3 {
+    color:red;
+}
+
+h2 {
+    color:#ddd;
+}
+
 ul, li {
     list-style: none;
 }
