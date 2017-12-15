@@ -1,7 +1,61 @@
 body {
-    background: navy;
+    width: 70%;
+    margin:20vh auto;
+    background-image: url(https://www.wanimo.com/veterinaire/images/articles/chat/chaton-tapes.jpg);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Raleway', sans-serif;
 }
 
-h1 {
-    font-weight:bold;
+ul, li {
+    list-style: none;
+}
+
+ul {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding:5%;
+    width:70%;
+}
+input, button[type="submit"] {
+    margin-top: 0.5%;
+    font-size:16px;
+}
+
+input {
+    height:2em;
+    padding: 10px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #FFF;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 17px;
+   
+}
+.error {
+    border:solid 2px red;
+}
+
+.moment {
+    float:right;
+    text-align: right;
+    
+}
+span {
+    display:inline-block;
+    width:200px;
+}
+
+.message {
+    width:400px;
+}
+
+footer {
+    margin-top: 50vh;
 }
